@@ -80,7 +80,7 @@ def verify_persistence():
     conn.close()
 
 def run_interactive_demo():
-    init_db(reset=True)  # Reset DB for a clean demo run
+    init_db(reset=False)  # Reset DB for a clean demo run
     thread_config = {"configurable": {"thread_id": "interview_demo_session"}}
     initial_input = {
         "employee_id": "EMP001",

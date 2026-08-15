@@ -25,8 +25,8 @@ CREATE TABLE IF NOT EXISTS leave_requests (
 
 -- Seed Data: Employees
 INSERT OR IGNORE INTO employees (employee_id, name, department, leave_balance) VALUES
-('EMP001', 'Alice Smith', 'Engineering', 10),
-('EMP002', 'Bob Jones', 'Marketing', 3);
+('EMP001', 'Ratnesh', 'Engineering', 10),
+('EMP002', 'Vikas', 'Marketing', 3);
 
 -- Seed Data: Public Holidays
 INSERT OR IGNORE INTO holidays (holiday_date, description) VALUES

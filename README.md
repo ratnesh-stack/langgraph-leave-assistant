@@ -66,6 +66,5 @@ leave-system/
 │   ├── computation_agent.py       # working-day calculation + balance check
 │   ├── human_confirmation_node.py # HITL pass-through node (pause happens in graph.py)
 │   └── persistence_agent.py       # DB write on approval
-├── main.py             # just calls init_db()
 └── demo.py             # CLI runner — the file you actually execute
 ```

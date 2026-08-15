@@ -1,0 +1,12 @@
+[project]
+name = "leave-system"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "ratnesh", email = "ratneshkumarshukla07@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "langgraph>=1.2.11",
+]
